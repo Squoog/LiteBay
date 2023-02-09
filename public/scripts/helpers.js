@@ -74,7 +74,7 @@ const renderListings = (listings, target) => {
 
           <!-- TARGET THE CLASS BELOW FOR LISTING in IMAGE! -->
           </div>
-          <div>
+          <div style="margin-left:10px">
           <!-- TARGET THE CLASS BELOW FOR USER -->
           <p class="posted-by">
             Seller: ${listing.username}
@@ -125,7 +125,7 @@ const renderAdminListings = (listings, target) => {
             </form>
           </div>
           <div>
-          <img class="listing-img"
+          <img class="listing-img img-adjust"
             src="${listing.url}"
             alt="${listing.alt_text}" width="70%">
         </div>
@@ -138,7 +138,7 @@ const renderAdminListings = (listings, target) => {
 
           <!-- TARGET THE CLASS BELOW FOR LISTING in IMAGE! -->
           </div>
-          <div>
+          <div style="margin-left:10px">
           <!-- TARGET THE CLASS BELOW FOR USER -->
           <p class="posted-by">
             Seller: ${listing.username}
