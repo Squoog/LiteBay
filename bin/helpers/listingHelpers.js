@@ -117,7 +117,7 @@ const getListingsWithUserID = (userID) => {
     });
 };
 
-// returns an HTML of a listing. initial template, updated by Eric in public/scripts/ericHelpers.js
+// returns an HTML of a listing.
 const getHtmlListingCard = (listingObject) => {
   const listing = `
     <article class="listing-article">
